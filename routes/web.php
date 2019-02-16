@@ -11,11 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/filmovi', function () {
+    return view('filmovi.index');
 });
 
-Route::get('/laravel', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('filmovi','filmovicontroller');
+
+Route::resource('filmovi','navigacijacontroller');

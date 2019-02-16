@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/laravel', function () {
     return view('welcome');
 });
+

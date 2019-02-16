@@ -14,7 +14,14 @@ class FilmoviController extends Controller
      */
     public function index()
     {
-        //
+       $filmovis = Filmovi::all();
+    //dd($predmets);
+//         echo '<ul>';
+//         foreach ($predmets as $key => $p) {
+//          echo '<li>'.$p->nazpred.'</li>';
+//         }
+//         echo '</ul>';
+    return view('index', compact('filmovis')); 
     }
 
     /**

@@ -15,6 +15,7 @@ class CreateZanrsTable extends Migration
     {
         Schema::create('zanrs', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('zanr');
             $table->timestamps();
         });
     }

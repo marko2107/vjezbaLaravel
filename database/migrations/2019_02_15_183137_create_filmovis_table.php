@@ -14,12 +14,12 @@ class CreateFilmovisTable extends Migration
     public function up()
     {
         Schema::create('filmovis', function (Blueprint $table) {
-            $table->increments('id')
-            $table->string('naslov', 50);
-            $table->integer('id_zanr', 4) -> unsigned();
-            $table->integer('godina', 4)->unsigned();
-            $table->integer('trajanje', 4)->unsigned();
-            $table->string('slika',50);
+            $table->increments('id');
+            $table->string('naslov');
+            $table->integer('zanr_id') -> unsigned();
+            $table->integer('godina')->unsigned();
+            $table->integer('trajanje')->unsigned();
+            $table->string('slika');
             $table->timestamps();
         });
     }

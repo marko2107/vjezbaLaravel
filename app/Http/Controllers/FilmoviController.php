@@ -31,7 +31,7 @@ class FilmoviController extends Controller
      */
     public function create()
     {
-        //
+        return view ('filmovi.create');
     }
 
     /**
@@ -42,7 +42,20 @@ class FilmoviController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       if ($request->hasFile('slika')){
+           $nazivslike = $request->slika->getClientOriginalName();
+           $request->slika->storeas('upload',$nazivslike);
+       };
+
+      $f = new filmovi();
+      $f->naslov = $request->input('naslov');
+      $f->zanr = $request->input('zanr');
+      $f->godina = $request->input('godina');
+      $f->trajanje = $request->input('trajanje');
+      $f->slika = $nazivslike;
+      $f->save();
+      
+      return redirect()->route('filmovi.index');
     }
 
     /**

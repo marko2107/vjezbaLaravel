@@ -34,7 +34,7 @@
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">U</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">V</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">Z</a>
-  <a class="flex-sm-fill text-sm-center nav-link active" href="#" tabindex="-1" aria-disabled="true">Dodaj novi film</a>
+  <a class="flex-sm-fill text-sm-center nav-link active" href="/filmovi/create" tabindex="-1" aria-disabled="true">Dodaj novi film</a>
 </nav>
       @yield('content')
 

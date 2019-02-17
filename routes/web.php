@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 Route::resource('filmovi','filmovicontroller');
 
-Route::resource('filmovi','navigacijacontroller');
+//Route::resource('filmovi','navigacijacontroller');

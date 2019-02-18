@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/filmovi', function () {
-    return view('filmovi.index');
+Route::get('/filmovi/slovo/{slovo}', function () {
+    return view('filmovi.slovo');
 });
 
 Route::get('/', function () {

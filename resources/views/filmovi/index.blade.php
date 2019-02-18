@@ -26,7 +26,7 @@
 <div class="container">
     <div class="row">
         <div class="col order-first">
-            <img src="">
+            <img src="{{asset('storage/{$film->slika}')}}">
         <div class="col">
             {{$film->naslov}}
         </div>

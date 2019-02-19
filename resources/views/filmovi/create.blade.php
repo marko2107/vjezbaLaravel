@@ -38,7 +38,7 @@
 
             <div class="form-group">
                 <label for="slika">Slika filma</label>
-                <input type="file" class="form-control-file" name="slika" enc>
+                <input type="file" class="form-control-file" name="slika" id="slika" enc>
             </div>
 
             <button type="submit" class="btn btn-primary" name="novi_film_sbm">Submit</button>

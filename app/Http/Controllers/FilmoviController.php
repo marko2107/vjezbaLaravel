@@ -43,8 +43,11 @@ class FilmoviController extends Controller
     public function store(Request $request)
     {
        if ($request->hasFile('slika')){
+           //dd($request);
            $nazivslike = $request->slika->getClientOriginalName();
-           $request->slika->storeas('upload',$nazivslike);
+           //$request->slika->storeas('upload',$nazivslike);
+           $request->slika->move(public_path('\storage'),$nazivslike);
+           
        };
 
       $f = new filmovi();

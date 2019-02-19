@@ -12,28 +12,28 @@
   </head>
   <body>
 <nav class="nav nav-pills flex-column flex-sm-row">
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">A</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">B</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">C</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">D</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">E</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">F</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">G</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">H</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">I</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">J</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">K</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">L</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">M</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">N</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">O</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">P</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">R</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">S</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">T</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">U</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">V</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">Z</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/a">A</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/b">B</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/c">C</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/d">D</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/e">E</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/f">F</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/g">G</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/h">H</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/i">I</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/j">J</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/k">K</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/l">L</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/m">M</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/n">N</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/o">O</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/p">P</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/r">R</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/s">S</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/t">T</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/u">U</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/v">V</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/z">Z</a>
   <a class="flex-sm-fill text-sm-center nav-link active" href="/filmovi/create" tabindex="-1" aria-disabled="true">Dodaj novi film</a>
 </nav>
       @yield('content')

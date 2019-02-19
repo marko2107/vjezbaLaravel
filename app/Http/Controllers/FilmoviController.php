@@ -102,4 +102,8 @@ class FilmoviController extends Controller
     {
         //
     }
+    
+    public function slovo($slovo) {
+        dd($slovo);
+    }
 }

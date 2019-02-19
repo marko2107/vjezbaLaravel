@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/filmovi/slovo/{slovo}', function () {
+Route::get('/filmovi/slovo/{slovo}', 'filmovicontroller@slovo'); /*{
     return view('filmovi.slovo');
-});
+};*/
 
 Route::get('/', function () {
     return view('welcome');

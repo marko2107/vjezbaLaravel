@@ -21,4 +21,6 @@ Route::get('/', function () {
 
 Route::resource('filmovi','filmovicontroller');
 
+Route::redirect('/', '/filmovi');
+
 //Route::resource('filmovi','navigacijacontroller');

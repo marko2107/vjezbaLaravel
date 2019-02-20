@@ -12,6 +12,7 @@
   </head>
   <body>
 <nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi">Svi</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/a">A</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/b">B</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="/filmovi/slovo/c">C</a>

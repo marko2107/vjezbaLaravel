@@ -103,10 +103,13 @@ class FilmoviController extends Controller
      */
     public function destroy(filmovi $filmovi)
     {
-        //
+        $filmovi->delete();
+        return redirect()->route('filmovi.index');
     }
     
     public function slovo($slovo) {
-        dd($slovo);
+        //dd($slovo);
+        $filmovi = filmovi::where('naslov','like',($slovo.'%'))->get();
+        return view('filmovi.slovo',['filmovi' => $filmovi]);
     }
 }

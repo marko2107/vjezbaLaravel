@@ -20,7 +20,7 @@
 
             <label class="my-1 mr-2" for="zanr">Žanr</label>
             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="zanr">
-
+                $zanrovi= DB::zanr::all();
                 <option value="1">Akcija</option>
                 <option value="2">Komedija</option>
                 <option value="3">Triler</option>

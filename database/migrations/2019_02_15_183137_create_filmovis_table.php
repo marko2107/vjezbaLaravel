@@ -16,7 +16,7 @@ class CreateFilmovisTable extends Migration
         Schema::create('filmovis', function (Blueprint $table) {
             $table->increments('id');
             $table->string('naslov');
-            $table->string('zanr');
+            $table->string('zanr_id');
             $table->integer('godina')->unsigned();
             $table->integer('trajanje')->unsigned();
             $table->string('slika');

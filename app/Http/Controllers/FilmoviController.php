@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\filmovi;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class FilmoviController extends Controller
 {
@@ -31,7 +32,9 @@ class FilmoviController extends Controller
      */
     public function create()
     {
-        return view ('filmovi.create');
+        $zanrovi=DB::table('zanrs')->get();
+        
+        return view ('filmovi.create')->with('zanrovi', $zanrovi);
     }
 
     /**
@@ -52,7 +55,7 @@ class FilmoviController extends Controller
 
       $f = new filmovi();
       $f->naslov = $request->input('naslov');
-      $f->zanr = $request->input('zanr');
+      $f->zanr_id = $request->input('zanr');
       $f->godina = $request->input('godina');
       $f->trajanje = $request->input('trajanje');
       $f->slika = $nazivslike;

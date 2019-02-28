@@ -11,16 +11,7 @@
 |
 */
 
-Route::get('/filmovi/slovo/{slovo}', 'filmovicontroller@slovo'); /*{
-    return view('filmovi.slovo');
-};*/
 
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('filmovi','filmovicontroller');
-
-Route::redirect('/', '/filmovi');
-
-//Route::resource('filmovi','navigacijacontroller');

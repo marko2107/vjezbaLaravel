@@ -15,3 +15,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/create', function () {
+    return view('dvorana.create');
+});
+
+Route::post('/dvorana/index', 'DvoranaController@store');
+
+Route::get('/dvorana/index','DvoranaController@index');
